@@ -31,12 +31,13 @@ form .display{
     margin: 20px 0;
 }
 form .display input{
+    padding-right:10px;
     text-align: right;
     flex: 1;
     border-radius: 10px; 
     font-size: 45px;
     box-shadow: none;
-    background: transparent;
+    background-color:grey;
 }
 form input.equal{
     width: 170px;
