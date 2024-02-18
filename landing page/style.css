@@ -385,3 +385,33 @@ header nav #btn1 i{
     width: 100%;
     background-color: black;
 }
+#foot-1{
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-around;
+    padding: 40px 50px;
+}
+#left-f{
+    width: 50%;
+    height:80%;
+}
+#left-f #icon-box{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    /* width: 30%; */
+    gap :10px;
+}
+#left-f #icon-box i{
+    color: white;
+    font-size: 30px;
+}
+
+#right-f{
+    width: 50%;
+    height:80%;
+    border-right: 2px solid white;
+}
+#right-f iframe{
+    border-radius: 30px;
+}
