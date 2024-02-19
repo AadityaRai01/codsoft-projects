@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(4, 28, 51);
+
+}
+nav {
+    position: sticky;
+    top: 1px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(4, 28, 51);
+}
+#nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+nav h3{
+    font-size: 38px;
+    color: rgb(37, 146, 148);
+    cursor: none;
+}
+nav h3 span{
+    color: rgb(221, 219, 219);
+}
+#nav-items h5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all ease .3s;
+}
+#nav-items h5 a:hover{
+    color: rgb(37, 146, 148);
+    font-size: 20px;
+}
+
+nav button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border:1px solid rgb(37, 146, 148);
+    background-color:rgb(4, 28,51);
+    transition: all ease .3s;
+}
+nav button:hover{
+    background-color: rgb(37, 146, 148);
+    scale: 1.1;
+}
+nav button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: all ease .3s;
+}
+nav button a:hover{
+    font-size:16px ;
+}
+#page-1{
+    position: relative;
+    background-color:rgb(4, 28,51);
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+
+}
+#page-1 #hero hr{
+    border: 1px solid rgb(37, 146, 148);
+    margin-top: 100px;
+}
+#page-1 #hero{
+   
+    height: 70%;
+    width: 70%;
+    margin:5% auto;
+}
+#hero h6{
+    font-size:17px ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: rgb(37, 146, 148);
+    margin-bottom: 20px;
+}
+#hero h1{
+    font-size:63px ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+#hero h2{
+    font-size:49px ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: rgb(192, 188, 188);
+}
+#hero p{
+    font-size:20px ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin:30px 0;
+    color: rgb(184, 179, 179);
+}
+#hero button{
+    padding: 20px 40px;
+    border-radius: 10px;
+    border:1px solid rgb(37, 146, 148);
+    background-color:rgb(4, 28,51);
+    transition: all ease .3s;
+}
+#hero button:hover{
+    background-color: rgb(37, 146, 148);
+    scale: 1.1;
+}
+#hero button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: all ease .3s;
+}
+#hero button a:hover{
+    font-size:16px ;
+}
+#hero img{
+    position: absolute;
+    right:-80px;
+    top :50px;
+    scale: .76;
+}
+#page-2{
+    background-color: rgb(4, 28,51);
+    height: 100vh;
+    width: 100%;
+    border-bottom: 1px solid rgb(39, 223, 226);
+}
+#page-2 #hero1 #box-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#page-2 #hero1 #box-1 img{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1.5px solid rgb(37, 146, 148);
+    /* margin-right: 300px; */
+}
+#img-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#img-item p{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(207, 202, 202);
+}
+#box-1 h1{
+    font-family: "Montserrat", sans-serif;
+    margin-right: 500px;
+    color: rgb(37, 146, 148);
+}
+#box-2{
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+#box-2 h1{
+    font-size: 35px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+#box-2 h2{
+    margin-top: 30px;
+    font-size: 25px;
+    color:rgb(37, 146, 148);
+    font-family: "Montserrat", sans-serif;
+}
+#items-col{
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+    line-height: 50px;
+}
+#items-col progress{
+    overflow: hidden;
+    border-radius: 30px;
+    height:22px;
+    width:450px;
+    position: relative;
+
+}
+#items-col progress bar{
+    position: absolute;
+
+}
+#items-col progress::-webkit-progress-bar {
+    background-color:rgb(37, 146, 148);
+    border-radius: 100px;
+  }
+  
+  #items-col progress::-webkit-progress-value {
+    background-color: rgb(39, 223, 226);
+    border-radius: 100px;
+  }
+  
+#right{
+    width: 56%;
+}
+#right p{
+    color:rgb(207, 202, 202);
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+}
+#page-3{
+    background-color: rgb(4, 28, 51);
+    height: 100vh;
+    width: 100%;
+
+}
+#page-3 h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(37, 146, 148);
+    text-decoration: underline;
+}
+#page-3 h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(155, 195, 196);
+}
+#cont{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col-elm i{
+    font-size: 45px;
+    background-color: rgb(39, 223, 226);
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+.col-elm h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    margin: 20px 0;
+    color: rgb(155, 195, 196);
+}
+.col-elm h6{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    align-items: center;
+    margin: 20px 0;
+    color: rgb(155, 195, 196);
+}
+.col-elm h6 a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    align-items: center;
+    margin: 20px 0;
+    text-decoration: none;
+    color: rgb(155, 195, 196);
+}
+#col-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+#col-2 h3{
+    color: rgba(243, 234, 234, 0.808);
+    text-decoration: underline;
+    font-size: 25px;
+}
+#col-3 a{
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    color: rgb(39, 223, 226);
+    background-color: rgb(12, 64, 112);
+    font-size: 40px;
+    border-radius: 50%;
+}
